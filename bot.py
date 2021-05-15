@@ -1,9 +1,9 @@
 import telebot
-import CONFIG
+import config
 
 from telebot import types
 
-bot = telebot.TeleBot(CONFIG.TOKEN)
+bot = telebot.TeleBot(config.TOKEN)
 
 
 @bot.message_handler(commands=['ping'])

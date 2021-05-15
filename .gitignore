@@ -23,6 +23,7 @@ var/
 wheels/
 pip-wheel-metadata/
 share/python-wheels/
+config.py
 *.egg-info/
 .installed.cfg
 *.egg
@@ -94,7 +95,7 @@ ipython_config.py
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
 __pypackages__/
-
+config.py
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
