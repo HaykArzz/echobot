@@ -2,11 +2,7 @@
 Python bot
 
 Starting new project
-add
-# helpers
-git add . 
-git commit -m "Messege"
-git push
+run project
 
-git pull #download
+python3.6 bot.py
 
