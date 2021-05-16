@@ -1,9 +1,18 @@
 thisdict = {
     "Armenia": "Yerevan",
     "France": "Paris",
-    "year": 1964
-}
+    "Russia": "Moscow",
+    "USA" : "Washington",
+    "Portugal": "Lissabon",
+    "Afghanistan": "Kabul",
+    "Albania": "Tirana",
+    "Algeria": "Algiers",
+    "Andorra": "Andorra la Vella",
+    "China": "Beijing"
 
-city = thisdict["Armenia"]
-city1 = thisdict["France"]
+
+
+
+
+}
 
