@@ -15,12 +15,18 @@ def info(message):
 def info(message):
     print("Received chat id ", message.chat.id)
     data = message.text.split(' ', 2)
-    city = dictionary.thisdict[(data[1])]
-    if city != 'null':
-      reply = "Your capital is :  " + str(city)
-    else:
-        reply = "Did not find"
-    bot.send_message(message.chat.id, reply)
+    error_message = 'Did not found capital: /info country name'
+    try:
+      city = dictionary.thisdict[(data[1])]
+      if not city:
+        reply = "Did not find, please try again"
+      else:
+        reply = "Your capital is :  " + str(city)
+        bot.send_message(message.chat.id, reply)
+    except:
+       print("Error happened")
+       bot.send_message(message.chat.id, error_message)
+
 
 bot.polling(none_stop=True)
 
