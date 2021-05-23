@@ -1,9 +1,10 @@
 import telebot
 import config
 import dictionary
+import dictionary1
 from telebot import types
 
-bot = telebot.TeleBot(config.TOKEN)
+bot = telebot.TeleBot()
 
 @bot.message_handler(commands=['start'])
 def info(message):
@@ -29,9 +30,6 @@ def info(message):
 
 
 bot.polling(none_stop=True)
-
-
-
 
 
 

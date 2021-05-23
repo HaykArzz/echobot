@@ -10,9 +10,5 @@ thisdict = {
     "Andorra": "Andorra la Vella",
     "China": "Beijing"
 
-
-
-
-
 }
 
